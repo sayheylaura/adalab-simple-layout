@@ -1,0 +1,25 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    background-color: #3CDBC0;
+    position: relative;
+}
+
+.main-title {
+    color: #FFFFFF;
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
