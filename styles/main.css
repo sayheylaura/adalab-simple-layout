@@ -6,11 +6,42 @@ body {
     font-family: 'Rubik', sans-serif;
 }
 
+.header {
+    width: 100%;
+    height: 25%;
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-image {
+    width: 155px;
+    height: auto;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-option {
+    display: inline-block;
+}
+
+.menu-link {
+    color: #4a4a4a;
+    font-size: 16px;
+    text-decoration: none;
+}
+
 .main {
     width: 100%;
-    height: 100%;
+    height: 75%;
     background-color: #3CDBC0;
     position: relative;
+    top: 25%;
 }
 
 .main-title {
