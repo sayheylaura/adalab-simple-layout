@@ -18,7 +18,7 @@ body {
     top: 0;
     z-index: 1;
     display: flex;
-    flex-flow: column wrap;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
@@ -62,4 +62,24 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+@media all and (min-width:768px) {
+    .header {
+        height: 100px;
+        flex-direction: row;
+    }
+
+    .logo__image {
+        padding: 20px 0 20px 30px;
+    }
+
+    .menu {
+        padding: 0 10px 0 0;
+    }
+
+    .main-title {
+        max-width: 200px;
+        font-size: 40px;
+    }
 }
