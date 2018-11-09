@@ -18,7 +18,7 @@ body {
     align-items: center;
 }
 
-.logo-image {
+.logo__image {
     width: 155px;
     height: auto;
     padding: 10px 0;
@@ -51,11 +51,13 @@ body {
     top: 118px;
 }
 
-.main-title {
+.main__title {
+    max-width: 160px;
+    margin: 0;
     color: #FFFFFF;
     font-size: 30px;
-    margin: 0;
     text-align: center;
+    text-transform: capitalize;
     position: absolute;
     top: 50%;
     left: 50%;
